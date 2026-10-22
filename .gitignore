@@ -1,0 +1,15 @@
+# Dataset downloads
+/data/
+
+# Generated artifacts
+/outputs/
+*.pt
+*.pth
+*.png
+
+# Python and notebook cache
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
