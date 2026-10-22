@@ -34,7 +34,3 @@ These generated files and the downloaded dataset are excluded from Git by `.giti
 ## Dataset
 
 Fashion-MNIST is provided through `torchvision.datasets.FashionMNIST`. It contains 28×28 grayscale clothing images across ten categories. Images are normalized to `[-1, 1]` to match the Generator's `Tanh` output.
-
-## Notes on evaluation
-
-GAN loss curves can oscillate and should not be read as ordinary classification accuracy. Inspect generated grids for visual quality and variety. The notebook's pixel-wise diversity value is only a rough indicator; it is not a substitute for a perceptual metric such as FID.
