@@ -1,0 +1,8 @@
+### `requirements.txt`
+
+```text
+torch
+torchvision
+matplotlib
+numpy
+jupyter
